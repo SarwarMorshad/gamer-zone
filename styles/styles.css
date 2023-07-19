@@ -480,6 +480,8 @@ footer .footer-copyright {
   .categories-container > ul {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
+
+    padding: 0px;
   }
 
   .categories-container li button {
