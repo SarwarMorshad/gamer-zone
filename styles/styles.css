@@ -1,0 +1,165 @@
+/* work sans font from google fonts */
+:root {
+  --primary-color-purple: #ff42a5;
+  --primary-color-blue: #4ec5f7;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* shared styles */
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0b0223;
+}
+
+.text-primary {
+  color: #ff42a5;
+}
+
+.btn-primary-purple {
+  border-radius: 48px;
+  background: var(--primary-color-purple);
+  width: 156px;
+  height: 65px;
+  border: none;
+  border-radius: 48px;
+}
+
+.btn-primary-blue {
+  border-radius: 48px;
+  background: var(--primary-color-blue);
+  width: 185px;
+  height: 65px;
+  border: none;
+  border-radius: 48px;
+}
+
+/* header styles */
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 1rem;
+}
+
+.nav-btn {
+  width: 262px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  cursor: pointer;
+}
+
+/* Banner Section  */
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-greeting {
+  color: #0b0223;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  font-size: 5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0px;
+}
+
+.banner-description {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.banner .zone-pic {
+  width: 700px;
+}
+
+.banner-two {
+  padding: 30px 150px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+
+.banner-content-two {
+  text-align: right;
+}
+
+.banner-greeting-two {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5px;
+}
+
+.banner-description-two {
+  color: #534c64;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* .btn-primary-purple-two {
+  border-radius: 48px;
+  background: var(--primary-color-purple);
+  width: 156px;
+  height: 65px;
+  border: none;
+  border-radius: 48px;
+} */
